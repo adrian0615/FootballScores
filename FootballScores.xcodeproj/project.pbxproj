@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0797785D1DFB409500D64868 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797785C1DFB409500D64868 /* Teams.swift */; };
+		079778611DFB40D200D64868 /* GameStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079778601DFB40D200D64868 /* GameStructure.swift */; };
+		079778631DFB40FF00D64868 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079778621DFB40FF00D64868 /* UserInput.swift */; };
 		07F180C71DF9E02B00BE04BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F180C61DF9E02B00BE04BC /* main.swift */; };
+		07F180CE1DF9E05200BE04BC /* ScoringPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F180CD1DF9E05200BE04BC /* ScoringPlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0797785C1DFB409500D64868 /* Teams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		079778601DFB40D200D64868 /* GameStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStructure.swift; sourceTree = "<group>"; };
+		079778621DFB40FF00D64868 /* UserInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
 		07F180C31DF9E02B00BE04BC /* FootballScores */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FootballScores; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F180C61DF9E02B00BE04BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		07F180CD1DF9E05200BE04BC /* ScoringPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoringPlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		07F180C51DF9E02B00BE04BC /* FootballScores */ = {
 			isa = PBXGroup;
 			children = (
+				079778601DFB40D200D64868 /* GameStructure.swift */,
 				07F180C61DF9E02B00BE04BC /* main.swift */,
+				0797785C1DFB409500D64868 /* Teams.swift */,
+				07F180CD1DF9E05200BE04BC /* ScoringPlay.swift */,
+				079778621DFB40FF00D64868 /* UserInput.swift */,
 			);
 			path = FootballScores;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0797785D1DFB409500D64868 /* Teams.swift in Sources */,
+				079778631DFB40FF00D64868 /* UserInput.swift in Sources */,
 				07F180C71DF9E02B00BE04BC /* main.swift in Sources */,
+				07F180CE1DF9E05200BE04BC /* ScoringPlay.swift in Sources */,
+				079778611DFB40D200D64868 /* GameStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +266,7 @@
 				07F180CC1DF9E02B00BE04BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
